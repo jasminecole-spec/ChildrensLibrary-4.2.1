@@ -8,7 +8,7 @@ public class ChildrensLibrary
 {
   public static void main(String[] args) throws IOException
   {
-    
-
+    Library library = new Library();
+    ArrayList<Book> myarray = library.getChildrensBooks();
   }
 }
